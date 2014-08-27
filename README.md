@@ -1,5 +1,5 @@
 #navigate-js
-####Parses links and attaches click events for HTML5 push state, Hash tags, and other navigation methods.
+####Parses links and attaches click events for HTML5 push state, hash tags, and other navigation methods.
 
 Installation
 ------------
@@ -15,7 +15,6 @@ Usage
 
 #####Simple
 ``` javascript
-var config = {};
 var filter = function(element) {
 	if(element.tagName === "A") {
 		return true;
@@ -26,7 +25,7 @@ var callback = function(href, e) {
 	alert(href);
 };
 
-var nav = new Navigate(filter, callback, config);
+var nav = new Navigate(filter, callback,);
 nav.parseLinks(document.getElementById("wrapper"));
 ```
 ``` html
