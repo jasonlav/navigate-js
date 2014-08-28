@@ -126,7 +126,7 @@ Prevent default behavior of event with necessary IE fallbacks. Default is true. 
 
 Compatibility
 -------------
-Path.js has been tested in all modern browsers and Internet Explorer 8+.
+Navigate.js has been tested in all modern browsers and Internet Explorer 8+.
 
 License
 -------------
